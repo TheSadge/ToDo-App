@@ -14,5 +14,5 @@ used to add what the user type in input box and add a style to list items when u
 
 ```javascript
 
-        alert(" Have A Great Dat " );
+        alert(" Have A Great Day " );
         let moment = new Date(Now);
