@@ -1,0 +1,90 @@
+@import url(cssReset/reset.css); /* CSS Reset */
+
+/* General Styles */
+
+body {
+    background-color: #232323;
+    border: 20px solid rgb(197, 156, 103);
+    width: fit-content;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Gaegu', sans-serif;
+    cursor: default;
+    margin: 0 auto;
+    position: relative;
+}
+
+* {
+    font-family: 'Gaegu', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1100px;
+    margin: auto;
+    text-align: center;
+    margin-top: 200px;
+}
+
+/* H1 and Paragraph Styles */
+
+h1 {
+    font-size: 100px;
+    color: rgb(250, 211, 160);
+    position: absolute;
+    top: 40px;
+    left: 300px;
+}
+
+p {
+    font-size: 25px;
+    color: wheat;
+}
+
+/* Input Style */
+
+.myInput {
+    padding: 20px 300px;
+    border-radius: 10px;
+    outline: 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* List Styles */
+
+#myUl li {
+    font-size: 50px;
+    padding: 10px;
+    color: white;
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#myUl li::after,
+#myUl li::before {
+    content: ": .";
+    color: wheat;
+}
+
+#myUl li:hover {
+    opacity: 0.6;
+}
+
+footer p {
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.line {
+
+    width: 100%;
+    height: 2px;
+    background-color: wheat;
+    margin-bottom: 20px;
+}
